@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: weather-service
+  jackson:
+    serialization:
+      INDENT_OUTPUT: true

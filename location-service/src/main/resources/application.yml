@@ -1,0 +1,11 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: location-service
+  cache:
+    type: redis
+  jackson:
+    serialization:
+      INDENT_OUTPUT: true
