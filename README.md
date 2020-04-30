@@ -22,4 +22,18 @@ Follow steps below to run your own copy of the applications
      
 ## Jaeger URL
 http://localhost:16686/search
-    
+
+# Links
+https://opentracing.io/
+
+https://opencensus.io/
+
+https://www.cncf.io/
+
+https://www.jaegertracing.io/
+
+https://zipkin.io/
+
+https://github.com/openzipkin/b3-propagation
+
+https://www.instana.com/
