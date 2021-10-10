@@ -1,4 +1,4 @@
-package com.epam.community.java.tracingdemo.weatherservice;
+package com.epam.community.java.tracingdemo.weatherservice.weather;
 
 import lombok.Value;
 

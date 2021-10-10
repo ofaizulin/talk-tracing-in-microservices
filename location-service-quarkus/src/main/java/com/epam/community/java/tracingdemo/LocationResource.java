@@ -23,7 +23,7 @@ public class LocationResource {
 
     @GET
     @Produces(MediaType.APPLICATION_JSON)
-    public Location hello(@QueryParam("ip") String ip, @Context HttpHeaders headers) {
+    public Location cityByIp(@QueryParam("ip") String ip, @Context HttpHeaders headers) {
         val location = locationClient.getCityByIp(ip);
         log.info("Retrieved Location: {}", location);
         return new Location(ip, location);

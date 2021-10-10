@@ -5,18 +5,19 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.2.6.RELEASE</version>
+		<version>2.5.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.epam.community.java.tracingdemo</groupId>
 	<artifactId>weather-service</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<name>weather-service</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Tracing in MicroServices - Weather API</description>
 
 	<properties>
-		<java.version>11</java.version>
-		<spring-cloud.version>Hoxton.SR3</spring-cloud.version>
+		<java.version>17</java.version>
+		<spring-cloud.version>2020.0.4</spring-cloud.version>
+		<json-path.version>2.6.0</json-path.version>
 	</properties>
 
 	<dependencies>
@@ -43,7 +44,7 @@
 		<dependency>
 			<groupId>com.jayway.jsonpath</groupId>
 			<artifactId>json-path</artifactId>
-			<version>2.4.0</version>
+			<version>${json-path.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
