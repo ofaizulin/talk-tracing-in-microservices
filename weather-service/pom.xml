@@ -17,7 +17,7 @@
 	<properties>
 		<java.version>17</java.version>
 		<spring-cloud.version>2020.0.4</spring-cloud.version>
-		<json-path.version>2.6.0</json-path.version>
+		<json-path.version>2.9.0</json-path.version>
 	</properties>
 
 	<dependencies>
